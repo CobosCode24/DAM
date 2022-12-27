@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>603</title>
+</head>
+<body>
+    <form method="post">
+    <center><h1>CURRÍCULO</h1></center>
+    <table>
+        <tr>
+            <th>DNI</th>
+            <th>Nombre</th>
+            <th>Dirección</th>
+        </tr>
+        <br/>
+        <tr>
+            <td><input type="text" name="dni" id="dni_form" maxlength="9"></td>
+            <td><input type="text" name="name" id="name_form"></td>
+            <td><input type="text" name="address" id="address_form"></td>
+        </tr>
+        <tr>
+            <td colspan="3"/><br/>
+        </tr>
+        <tr>
+            <th>Estado Civil</th>
+            <th>Experiencia laboral</th>
+            <th>Idiomas</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="estadoCivil" checked="checked"><label> Soltero</label><br>
+                <input type="radio" name="estadoCivil"><label> Casado</label><br/>
+                <input type="radio" name="estadoCivil"><label> Viudo</label><br/>
+                <input type="radio" name="estadoCivil"><label> Divorciado</label>
+            </td>
+            <td>
+                <input type="checkbox" name="exp_Lab"><label>Construcción</label><br/>
+                <input type="checkbox" name="exp_Lab"><label>Administración</label><br/>
+                <input type="checkbox" name="exp_Lab"><label>Hostelería</label>
+            </td>
+            <td>
+                <input type="checkbox" name="idiomas" checked="checked"><label>Inglés</label><br/>
+                <input type="checkbox" name="idiomas"><label>Francés</label><br/>
+                <input type="checkbox" name="idiomas"><label>Alemán</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"/><br/>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <input type="button" value="Aceptar">
+            </td>
+            <td>
+                <input type="button" value="Cancelar">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
