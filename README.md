@@ -4,7 +4,7 @@ Repositorio con contenido relaccionado a las entregas de proyectos relaccionados
 # Contenido.
 
 **Primer año.**
-- Sistemas Microinformáticos.
+- Sistemas Informáticos.
     - Explotación de sistemas Informáticos.
     - Instalación de sistemas operativos.
     - Comandos y Scripts en Windows.
