@@ -1,0 +1,35 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+</head>
+
+<body>
+    <center>
+        <h1>Formulario Registro</h1>
+    </center>
+    <form name="login" method="post">
+        <label>Nombre de Usuario </label><input type="text" name="user" id="user" />
+        <br/><br/>
+        <label>Contraseña </label><input type="password" name="pass" id="pass" />
+        <br/><br/>
+        <label>Hijos </label><input type="number" name="soon" id="son" min="0" max="100" />
+        <br/><br/>
+        <label>Sexo</label>
+        <br/>
+        <input type="radio" name="sexo" id="sexoM" value="H" /><label>Masculino</label>
+        <br/>
+        <!--
+            El name debe de ser el mismo, ya que si le ponemos un nombre distinto, al marcarlo
+            se pueden marcar las dos y se quedan pillados.
+        -->
+        <input type="radio" name="sexo" id="sexoF" value="M" /><label>Femenino</label>
+        <br/><br/>
+        <input type="checkbox" name="TerminosCondiciones" id="TermCond" value="si" required/><label>¿Aceptas los terminos y condiciones?</label>
+        <br/><br/>
+        <input type="submit" name="log" id="log" value="Registrarse" />
+    </form>
+</body>
+
+</html>
