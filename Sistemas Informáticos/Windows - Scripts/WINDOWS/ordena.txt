@@ -1,0 +1,22 @@
+﻿@echo off
+
+echo - Escriba en el editor que acaba de abrir.
+echo - Pon unicamente una palabra por linea.
+echo - Cuando termines pulsa ctrl+g y cierra el editor.
+echo - Pulsa intro para comenzar.
+echo *******************
+echo - IMPORTANTE: Guardar el documento de texto como "lista.txt"
+echo *******************
+
+pause>nul
+
+start notepad 
+
+del lista.txt
+echo - Presiona intro para mostrar las palabras ordenadas... -
+pause>nul
+
+echo Las palabras ordenadas son: 
+echo ---------------------------
+type lista.txt|sort
+echo ---------------------------

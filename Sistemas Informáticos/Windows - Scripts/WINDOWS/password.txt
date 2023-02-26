@@ -1,0 +1,39 @@
+@echo off 
+
+SET PASSWORD=qwerty
+SET MSG_CORRECT=Enhorabuena!! Recuerdas tu contraseña
+SET MSG_INCORRECT=Vuelve a intentarlo...
+SET ATTEMPTS=3
+SET CONT_ATTEMPTS=0
+
+goto start
+
+:start
+SET /P password_user=Introduzca contraseña:
+SET /A CONT_ATTEMPTS=%CONT_ATTEMPTS%+1
+SET /A ATTEMPTS=%ATTEMPTS%-1
+
+if %ATTEMPTS%==0 (goto death)
+if %password_user%==%PASSWORD% (goto password_correct) else (goto password_incorrect)
+
+
+:password_correct
+echo %MSG_CORRECT%
+echo El codigo de la caja fuerte es 35687468 > top_secret.txt
+TYPE top_secret.txt
+goto end
+
+
+:password_incorrect
+echo %MSG_INCORRECT%
+echo Tienes %ATTEMPTS% intentos.
+echo Vas por el intento numero %CONT_ATTEMPTS%
+goto start
+
+
+:death
+echo No puedes saber el codigo, lo siento. > total_death.txt
+TYPE total_death.txt
+
+:end
+pause>nul

@@ -1,0 +1,16 @@
+﻿@echo off
+
+if %1==DISCO goto disk
+if %1==MEMORIA goto memory
+echo párametro no válido. Los parametros permitidos son "DISCO" , "MEMORIA".
+goto end
+
+:disk
+chkdsk
+goto end
+
+:memory
+mdsched
+
+:end
+pause>nul
