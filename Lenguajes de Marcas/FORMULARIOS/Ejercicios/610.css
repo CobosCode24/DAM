@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+form {
+    border: 6px solid blue;
+    padding: 2%;
+    background-color: #94f6f6;
+}
+
+#titulo {
+    text-transform: uppercase;
+    margin: 2%;
+}
+
+/*Cuadros de info*/
+.Naranja {
+    background-color: orange;
+    padding: 2%;
+}
+#titulosTablaNaranja{
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: -35px;
+    color: maroon;
+}
+
+.Rosa {
+    background-color: pink;
+    padding: 2%;
+    margin-top: 3%;
+    border: 2px solid grey;
+}
+#titulosTablaRosa {
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: -35px;
+    color: fuchsia;
+}
+
+.Verde {
+    background-color: greenyellow;
+    padding: 2%;
+    margin-top: 3%;
+    border: 2px solid grey;
+}
+#titulosTablaVerde {
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: -35px;
+    color: green;
+}
+.subVerde {
+    background-color: rgb(119, 170, 18);
+    padding: 2%;
+    margin-top: 3%;
+    border: 2px solid grey;
+}
+#titulosTablaSubVerde {
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: -35px;
+    margin-bottom: 10px;
+    color: green;
+}
+.Morado {
+    background-color: rgb(196, 153, 237);
+    padding: 2%;
+    margin-top: 3%;
+    border: 2px solid grey;
+}
+#titulosTablaMorado {
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: -35px;
+    margin-bottom: 10px;
+    color: blueviolet;
+}

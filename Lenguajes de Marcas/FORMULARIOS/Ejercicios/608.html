@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="608.css">
+    <title>608</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h1>FORMULARIO DE CONTACTO</h1>
+
+        <div class="cuadroAzul">
+            <table>
+                <tr>
+                    <th>Nombre:</th>
+                    <th>Apellidos:</th>
+                    <th>Correo Electronico:</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="nombre" id="nombre">
+                    </td>
+                    <td>
+                        <input type="text" name="apellidos" id="apellidos">
+                    </td>
+                    <td>
+                        <input type="email" name="correo" id="correo" value="@">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="cuadroAzul">
+            <table>
+                <tr>
+                    <th>Dirección:</th>
+                    <th>Población:</th>
+                    <th>Provincia:</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="direccion" id="direccion">
+                    </td>
+                    <td>
+                        <input type="text" name="poblacion" id="poblacion">
+                    </td>
+                    <td>
+                        <input type="text" name="provincia" id="provincia">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="cuadroAzul">
+            <table>
+                <tr>
+                    <th>Edad:</th>
+                    <th>¿Cómo nos conociste?</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="edad" id="020"><label for="edad-020">0-20</label><br>
+                        <input type="radio" name="edad" id="2040"><label for="edad-2040">20-40</label><br>
+                        <input type="radio" name="edad" id="4060"><label for="edad-4060">40-60</label><br>
+                        <input type="radio" name="edad" id="60100"><label for="edad-60100">60-100</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="medioConocer" id="medioConocer"><label for="op1">A través de un amigo.</label><br>
+                        <input type="checkbox" name="medioConocer" id="medioConocer"><label for="op2">A través de un buscador.</label><br>
+                        <input type="checkbox" name="medioConocer" id="medioConocer"><label for="op3">Navegano por la red.</label><br>
+                        <input type="checkbox" name="medioConocer" id="medioConocer"><label for="op4">Otros</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="cuadroAzul">
+            <table>
+                <tr>
+                    <th>Opinión sobre nuestra página web</th>
+                    <th>Tiene alguna sugerencia...</th>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea name="opinion" id="opinion" cols="40" rows="8" placeholder="Escriba aquí su opinión..."></textarea>
+                    </td>
+                    <td>
+                        <textarea name="sugerencas" id="sugerencia" cols="40" rows="8" placeholder="Escriba aquí sus sugerencias..."></textarea>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="cuadroAzul">
+            <table>
+                <tr>
+                    <th>¿Cuanto navegas por internet?<br>(Señala la opción que más se acerque)</th>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="horasNav" id="horasNav" size="2">
+                            <option value="2horas">2 horas al día.</option>
+                            <option value="4 horas">4 horas al día.</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div>
+            <table>
+                <tr>
+                    <td class="enviar">
+                        <input type="submit" value="Enviar Formulario">
+                    </td>
+                    <td class="borrar">
+                        <input type="reset" value="Borrar Formulario">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

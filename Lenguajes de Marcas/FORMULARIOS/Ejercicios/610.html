@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="610.css">
+    <title>610</title>
+</head>
+<body>
+    <h1 id="titulo">Foumulario de contacto</h1>
+    <form action="#" method="post">
+        <div class="Naranja">
+            <h1 id="titulosTablaNaranja">Registrarse como usuario</h1>
+            
+            <div class="Rosa">
+                <h1 id="titulosTablaRosa">Identificación</h1>
+                <br>
+                <label for="apellidos">Apellido</label><input type="text" name="apellido" id="apellido">
+                <br/><br/>
+                <label for="nombre">Nombre</label><input type="text" name="nombre" id="nombre">
+            </div>
+
+            <div class="Verde">
+                <h1 id="titulosTablaVerde">Otros datos</h1>
+
+                <div class="subVerde">
+                    <h1 id="titulosTablaSubVerde">Género</h1>
+                    <label for="hombre">Hombre</label><input type="radio" name="genero" id="hombre">
+                    <label for="mujer">Mujer</label><input type="radio" name="genero" id="mujer">
+                </div>
+                <div class="subVerde">
+                    <h1 id="titulosTablaSubVerde">Ocupación</h1>
+                    <select name="ocupacion" id="ocupacion">
+                        <option value="profesor">Profesor</option>
+                    </select>
+                </div>
+                <div class="subVerde">
+                    <h1 id="titulosTablaSubVerde">Comentarios</h1>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Escriba aquí sus comentarios"></textarea>
+                </div>
+
+            </div>
+
+            <div class="Morado">
+                <h1 id="titulosTablaMorado">Confrmar/Rechazar</h1>
+                <input type="submit" value="Enviar">
+                <input type="button" value="Cancelar">
+            </div>
+
+        </div>
+
+    </form>
+</body>
+</html>
