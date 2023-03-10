@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<libro>
+    <autor>Isabel Castro</autor>
+    <titulo>XML Guía de Aprendizaje</titulo>
+    <precio moneda="euros">30</precio>
+</libro>
