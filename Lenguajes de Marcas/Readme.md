@@ -2,8 +2,8 @@
 
 ## Contenido del curso de LM.
 
-1. XML
-2. HTML5
+1. XML.
+2. HTML5.
 3. Formularios.
-4. CSS
-5. JavaScript
+4. CSS.
+5. JavaScript.
