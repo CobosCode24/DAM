@@ -1,4 +1,4 @@
-# Contenido.
+# Contenido DDL.
 
 - CREATE.
 - DROP.
