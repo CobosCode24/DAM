@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<mensaje>
+    <remitente nombre="juan" email="juan@gmail.es"/>
+    <destinatario nombre="pepe" email="pepe@gmail.com" />
+    <asunto>Felizitación</asunto>
+    <parrafo>Felicidades por tu ascenso</parrafo>
+    <parrafo>Un saludo</parrafo>
+    <comentario/>
+</mensaje>
