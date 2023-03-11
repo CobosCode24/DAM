@@ -1,0 +1,18 @@
+* {
+    margin: 0%;
+    padding: 1%;
+}
+
+.conEstilo {
+    font-family: fantasy;
+    color: green;
+    background-color: black;
+    border: 6px double yellow;
+    padding: 20px;
+}
+
+#H1conEstilo {
+    background-color: red;
+    color: blue;
+    border: 6px double black;
+}

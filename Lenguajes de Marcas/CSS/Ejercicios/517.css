@@ -1,0 +1,17 @@
+* {
+    margin: 1% auto;
+    padding: 1% auto;
+}
+
+.div_1 {
+    background-color: yellow;
+    max-width: max-content;
+    padding: 2%;
+    border: 2px dashed green;
+    height: auto;
+    width: 200px;
+}
+
+ol {
+    list-style-image: url(vinieta.gif);
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 1%;
+    padding: 0%;
+}
+
+table {
+    font-family: sans-serif;
+    font-size: 20px;
+    /*min-width: 650px;*/
+    text-align: justify;
+    border-right: 6px dotted blue;
+    border-left: 6px dotted blue;
+    border-top: 6px dashed red;
+    border-bottom: 6px dashed red;
+}
+
+#img1{
+    width: 100px;
+    float: left;
+    margin-bottom: 20px;
+    border: 2px solid green;
+    padding: 2%;
+}
+#img2 {
+    width: 100px;
+    float: right;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    padding: 2%;
+}
+
+#pushDer {
+    text-indent: 50px;
+}
+#pushIzq {
+    text-indent: -50px;
+    margin-left: 60px;
+}

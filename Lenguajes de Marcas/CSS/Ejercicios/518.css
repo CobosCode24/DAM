@@ -1,0 +1,17 @@
+* {
+    margin: 1% auto;
+    padding: 0% auto;
+}
+
+table {
+    background-color: aqua;
+    border: 6px double red;
+    padding: 10px;
+}
+
+tr, td {
+    padding: 5px;
+    background-color: aqua;
+    border: 3px solid black;
+    border-collapse: collapse;
+}

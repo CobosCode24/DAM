@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: bisque;
+}
+
+td, td, table {
+    border: 4px ridge;
+    border-collapse: collapse;
+    margin: 2%;
+}
+td {
+    text-align: justify;
+    padding: 1%;
+}
+#izq {
+    text-align: left;
+}
+#der {
+    text-align: right;
+}
+#cent {
+    text-align: center;
+}
+#just {
+    text-align: justify;
+}
+#izqT {
+    text-align: left;
+}
+#derT {
+    text-align: right;
+}
+#centT {
+    text-align: center;
+}
+#justT {
+    text-align: justify;
+}
+#izq, #der, #cent, #just {
+    text-transform: uppercase;
+    padding: 1%;
+    font-weight: bold;
+}

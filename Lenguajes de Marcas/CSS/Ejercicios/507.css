@@ -1,0 +1,31 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+#linea_1::first-letter {
+    font-family: fantasy;
+    color: blue;
+    font-size: 30px;
+    text-decoration: underline;
+}
+#linea_1 {
+    text-decoration: underline;
+    color: red;
+    text-transform: uppercase;
+}
+
+.parrafos {
+    color: red;
+    padding: 2% 0%;
+}
+
+#linea_2::first-letter {
+    color: blue;
+    font-size: 30px;
+}
+#Pcentrado {
+    padding: 2% 0%;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    border: 4px ridge red;
+    background-color: black;
+    color: yellow;
+    padding: 1%;
+    margin: 1%;
+}

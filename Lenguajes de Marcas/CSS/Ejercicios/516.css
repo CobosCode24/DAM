@@ -1,0 +1,28 @@
+* {
+    margin: 1% auto;
+    padding: 1% auto;
+}
+
+.div_1 {
+    background-color: yellow;
+    max-width: max-content;
+    padding: 2%;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}
+.div_2 {
+    background-color: greenyellow;
+    max-width: max-content;
+    padding: 2%;
+    border: 2px dotted red;
+    height: 200px;
+    width: 200px;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+ul{
+    list-style-type: circle;
+}
